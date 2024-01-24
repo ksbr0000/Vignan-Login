@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+fieldset
+{
+border:  rgba(96, 89, 89, 0.149) solid 2px;
+border-radius: 5px;
+width: 320px;
+overflow:hidden ;
+height: 450px;
+margin-top: 100px;
+background-color: white;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+
+}
+
+
+body
+{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 255, 85, 0.092);
+}
+
+button
+{
+    cursor: pointer;
+text-align: center;
+width: 250px;
+margin-top: 10px;
+margin-bottom: 5px;
+height: 35px;
+color:white;
+border: none;
+border-radius: 5px;
+background-color: rgb(38, 173, 38);
+position: relative;
+font-size: small;
+
+}
+
+button:hover
+{
+    background-color:rgba(0, 118, 0, 0.837); ;
+    color: white;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+
+input
+{
+    width: 250px;
+    height: 35px;
+    border-radius:5px ;
+    border: rgba(96, 89, 89, 0.149) solid 2px;
+}
+
+
+
+.imge
+{
+    width: 150px;
+    height: 50px;
+}
+
+.image
+{
+    background-color: rgba(27, 56, 184, 0.948);
+    width: auto;
+    height: 80px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#myinput::placeholder
+{
+    color:rgba(128, 128, 128, 0.507);
+   padding-left: 10px;
+   font-size: small;
+}
+
+.shit
+{
+    font-size: 12px;
+    text-align: center;
+    color:  rgba(27, 56, 184, 0.948);;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+.admin
+{
+    font-size: 12px;
+    text-align: center;
+    color:  rgba(7, 7, 7, 0.948);
+    margin-top: 10px;
+    cursor: pointer; 
+    
+}
+.admin:hover
+{
+    text-decoration: none;
+}
+.admin > a
+{
+    color: blue;
+    text-decoration: none;
+}
+.admin > a:hover
+{
+    text-decoration: underline;
+}
+label
+{
+    color:  rgba(27, 56, 184, 0.948);;
+}
+
+p:hover
+{
+    text-decoration:underline;
+}
